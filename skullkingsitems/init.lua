@@ -45,6 +45,7 @@ minetest.register_node("skullkingsitems:hammer", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 	groups = {sword = 1,pickaxe = 1,dig_immediate=3},
+	paramtype = "light",
 
 -- CAIXA DE COLISÃO :
 	paramtype2 = "facedir",
@@ -74,6 +75,7 @@ minetest.register_node("skullkingsitems:hammer", {
 	tiles = {"mese_lord_tro.png"} ,
 	wield_scale = {x=1, y=1, z=1},
 	groups = {dig_immediate=3},
+	paramtype = "light",
 
 -- CAIXA DE COLISÃO :
 	paramtype2 = "facedir",
@@ -103,6 +105,7 @@ minetest.register_node("skullkingsitems:golem_trophy", {
 	tiles = {"golem_tro.png"} ,
 	wield_scale = {x=1, y=1, z=1},
 	groups = {dig_immediate=3},
+	paramtype = "light",
 
 -- CAIXA DE COLISÃO :
 	paramtype2 = "facedir",
@@ -128,6 +131,7 @@ minetest.register_node("skullkingsitems:skullking_trophy", {
 	tiles = {"skull_king_deep_tro.png"} ,
 	wield_scale = {x=1, y=1, z=1},
 	groups = {dig_immediate=3},
+	paramtype = "light",
 
 -- CAIXA DE COLISÃO :
 	paramtype2 = "facedir",
